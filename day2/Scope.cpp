@@ -1,16 +1,16 @@
 #include<iostream>
-int x = 29;
 
+int x = 100;
 int main()
 {
-
-	std::cout << x << std::endl;
 	int x = 23;
-	std::cout << x << std::endl;
 	{
-		int x = 50;
+		int y = x;
+		int x = 200;
+		std::cout << y << std::endl;
 		std::cout << x << std::endl;
 	}
-
+	std::cout << x << std::endl;
+	std::cout << ::x << std::endl;
 	return 0;
 }
