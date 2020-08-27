@@ -8,6 +8,7 @@ static int mul(int a, int b)
 int main()
 {
 
-	//std::cout << mul(10, 20) << std::endl;
+std::cout << mul(10, 20) << std::endl;
+//if we cal; mul function compiler will give linker error	
 	return 0;
 }
